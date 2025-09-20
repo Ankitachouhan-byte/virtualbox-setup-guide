@@ -52,3 +52,10 @@ sudo apt update
 sudo apt install build-essential dkms linux-headers-$(uname -r)
 cd /media/$USER/VBox_GAs_x.x.x/
 sudo ./VBoxLinuxAdditions.run
+
+## Step 4: VirtualBox Version Check
+
+To verify the installation:
+
+```bash
+VBoxManage --version
